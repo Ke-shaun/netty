@@ -102,6 +102,7 @@ public abstract class MultithreadEventExecutorGroup extends AbstractEventExecuto
                             // Let the caller handle the interruption.
                             Thread.currentThread().interrupt();
                             break;
+
                         }
                     }
                 }
